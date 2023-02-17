@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Aminem98 
-jp-d
-/
-training-ex1
-Public
-Fork your own copy of jp-d/training-ex1
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Security
-Insights
-training-ex1/Jenkinsfile
-
-DUPLAN Jean Philippe Update stage name
-Latest commit d020289 on Nov 23, 2022
- History
- 0 contributors
-101 lines (84 sloc)  2.83 KB
-
 pipeline {
   agent any
 
@@ -128,19 +98,3 @@ def now () {
 def getCurrTime() {
   return now().format("dd-MM-yy_HH:mm:ss", TimeZone.getTimeZone('Europe/Paris'))
 }
-
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-training-ex1/Jenkinsfile at main · jp-d/training-ex1
